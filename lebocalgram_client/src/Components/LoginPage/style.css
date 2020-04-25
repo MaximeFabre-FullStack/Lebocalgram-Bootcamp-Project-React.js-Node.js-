@@ -1,0 +1,81 @@
+/**
+* Style - LoginPage.css
+*/
+
+/* Style général */
+.pageContainer {
+  background-color: rgb(243, 243, 243);
+  height: 720px;
+  background-image: url(./img/coworking.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* Style du logo */
+.logoContainer {
+  width: 250px;
+  height: auto;
+  margin: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  background-color: white;
+  opacity: 85%;
+}
+
+.logo {
+  max-width: 100%;
+}
+
+/* Style du block login */
+.loginBlock {
+  background-color: white;
+  border-radius: 6px;
+  margin: 25px 250px 15px 250px;
+  opacity: 85%;
+  text-align: center;
+  padding-top: 18px;
+  padding-bottom: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.loginBlock2 {
+  background-color: white;
+  border-radius: 6px;
+  margin: 15px 250px 15px 250px;
+  opacity: 85%;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.input_email {
+  margin-right: 30px;
+  margin-left: 10px;
+}
+.input_password {
+  margin-left: 10px;
+  margin-right: 30px;
+}
+
+.login_logo {
+  height: 25px;
+  width: auto;
+  text-decoration: none;
+  color: black;
+}
+.login_logo:hover {
+  height: 27px;
+}
+.margin {
+  margin-top: 20px;
+  height: 35px;
+  width: auto;
+}
+.margin:hover {
+  height: 37px;
+}
+.paragraphe {
+  font-weight: bolder;
+}

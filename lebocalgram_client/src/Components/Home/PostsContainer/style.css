@@ -1,0 +1,66 @@
+.post_editor {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 6px;
+  height: 350px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(9, 0, 0, 0.1), 0 1px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.remove_popup {
+  border-radius: 6px;
+  height: 350px;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(9, 0, 0, 0.1), 0 1px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.display_on {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  float: left;
+}
+.display_off {
+  display: flex;
+  flex-wrap: wrap;
+  filter: blur(1.5px);
+}
+.label_1 {
+  display: flex;
+  flex-wrap: wrap;
+  float: left;
+}
+.post_1 {
+  margin-left: 10px;
+  border-radius: 6px;
+  width: 350px;
+  height: 30px;
+}
+.post_3 {
+  margin-left: 10px;
+  border-radius: 6px;
+  width: 650px;
+  height: 95px;
+}
+.button6 {
+  padding: 0.5em 1.2em;
+  width: 250px;
+  border-radius: 6px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+  background-color: #00cc99;
+  text-align: center;
+}
+.button6:active {
+  top: 0.1em;
+}
+.container {
+  width: 300%;
+  margin-top: 100px;
+  margin-left: -1%;
+  display: flex;
+  flex-direction: column-reverse;
+}

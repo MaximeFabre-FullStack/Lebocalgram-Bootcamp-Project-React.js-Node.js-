@@ -1,0 +1,10 @@
+.pop_up_alert {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  z-index: 2;
+  margin: auto;
+  text-align: center;
+  font-weight: bolder;
+  margin-bottom: -90px;
+}

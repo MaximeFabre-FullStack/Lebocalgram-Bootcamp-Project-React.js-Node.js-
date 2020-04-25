@@ -1,0 +1,20 @@
+/**
+* Style - BootstrapCarousel.js 
+*/
+
+.w_60p {
+  width: 50% !important;
+}
+
+.image {
+  background-size: cover;
+  width: 300px;
+  height: 200px;
+}
+
+.carousel_container {
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 20%;
+  z-index: 1;
+}
