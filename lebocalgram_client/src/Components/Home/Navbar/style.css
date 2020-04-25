@@ -1,0 +1,90 @@
+nav {
+  margin-left: auto;
+  margin-right: auto;
+  position: fixed;
+  background-color: white;
+  width: 98%;
+  height: 94px;
+  top: 0;
+  line-height: 64px;
+  border-bottom: solid 1px silver;
+  display: flex;
+  box-shadow: 0 4px 8px 0 rgba(9, 0, 0, 0.1), 0 1px 10px 0 rgba(0, 0, 0, 0.19);
+  z-index: 10;
+  border-radius: 6px;
+}
+.first_div {
+  width: 30%;
+  margin: auto;
+  height: 64px;
+}
+.logo_navbar {
+  height: 80px;
+  width: auto;
+  padding-left: 35px;
+}
+.second_div {
+  width: 30%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.input_navbar {
+  height: 30px;
+  width: fit-content;
+  border-radius: 3px;
+  width: 250px;
+}
+.input_navbar:hover {
+  opacity: 0.3;
+}
+.loupe {
+  height: 35px;
+  width: auto;
+  text-decoration: none;
+  color: black;
+  margin-left: 15px;
+}
+.loupe:hover {
+  cursor: pointer;
+  color: #00cc99;
+}
+.third_div {
+  width: 30%;
+  margin: auto;
+  text-align: center;
+  transform: translateY(5px);
+}
+.home {
+  height: 42px;
+  width: auto;
+  text-decoration: none;
+  transform: translateY(-7px);
+  color: black;
+}
+.moustael {
+  height: 50px;
+  width: auto;
+  padding-left: 60px;
+  text-decoration: none;
+  color: black;
+  transform: translateY(-8px);
+}
+.off {
+  height: 42px;
+  width: auto;
+  padding-left: 60px;
+  text-decoration: none;
+  color: black;
+  transform: translateY(-7px);
+}
+
+.logo_links:hover {
+  color: #00cc99;
+  cursor: pointer;
+}
+
+.moustael:hover {
+  height: 51px;
+}

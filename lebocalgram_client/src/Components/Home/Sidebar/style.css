@@ -1,0 +1,9 @@
+.player_container {
+  text-align: center;
+  background-color: white;
+  border-radius: 6px;
+}
+.player_1 div {
+  width: 93% !important ;
+  margin: auto;
+}

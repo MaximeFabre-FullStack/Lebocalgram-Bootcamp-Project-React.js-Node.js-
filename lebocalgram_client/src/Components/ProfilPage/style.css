@@ -1,0 +1,90 @@
+/**
+* Style - Component ProfilPage.js
+*/
+
+.profil_page_container {
+  margin-top: 64px;
+  background-color: rgb(243, 243, 243);
+  padding-left: 60px;
+  padding-right: 60px;
+  height: 1000px;
+}
+
+/* Style du header */
+
+.header_profil_page {
+  margin: 0 auto;
+  width: 600px;
+  padding-left: 60px;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+/* Style profil picture */
+
+.picture_container {
+  max-width: 200px;
+  width: 50%;
+  height: auto;
+}
+
+.profil_picture {
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  border: 1px solid white;
+  border-radius: 80px;
+  box-shadow: 1px 1px 10px;
+}
+
+.profil_Name {
+  display: block;
+  width: 50%;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+/* Style de la galerie */
+.gallery_container {
+  margin-top: 60px;
+  box-shadow: 0 4px 8px 0 rgba(9, 0, 0, 0.1), 0 1px 10px 0 rgba(0, 0, 0, 0.19);
+  padding: 7px;
+}
+
+.col {
+  padding: 7px;
+}
+
+/* Style images galerie */
+.gallery_img {
+  max-width: 100%;
+}
+/* Style images galerie avec carousel */
+.img_blur {
+  max-width: 100%;
+  filter: blur(4px) grayscale(1);
+}
+
+/* Style du bouton du carousel */
+.button_carousel {
+  position: relative;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  border-radius: 6px;
+  color: white;
+  background-color: rgba(0, 63, 47, 0.678);
+  opacity: 60%;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: x-small;
+}
+
+.button_carousel:hover {
+  background-color: rgba(190, 190, 190, 0.829);
+  color: black;
+}
