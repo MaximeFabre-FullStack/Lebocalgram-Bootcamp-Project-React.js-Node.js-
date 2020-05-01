@@ -4,6 +4,7 @@ import "./style.css";
 import Logo from "./images/logo14.png";
 import Logo2 from "./images/moustael1.jpg";
 
+/*comm test*/
 class Navbar extends Component {
   render() {
     return (
@@ -12,6 +13,7 @@ class Navbar extends Component {
           <div className="first_div">
             <Link to="/">
               <img className="logo_navbar" src={Logo} alt="logo"></img>
+
             </Link>
           </div>
           <div className="second_div">
